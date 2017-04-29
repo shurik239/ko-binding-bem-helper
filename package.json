@@ -1,0 +1,33 @@
+{
+  "name": "ko-binding-bem-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shurik239/ko-binding-bem-helper.git"
+  },
+  "keywords": [
+    "knockout",
+    "binding",
+    "ko",
+    "bem",
+    "helper"
+  ],
+  "author": "Alexander Chirkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shurik239/ko-binding-bem-helper/issues"
+  },
+  "homepage": "https://github.com/shurik239/ko-binding-bem-helper#readme",
+  "devDependencies": {
+    "react-bem-helper": "^1.4.1",
+    "requirejs": "^2.3.3"
+  },
+  "dependencies": {
+    "knockout": "^3.4.2"
+  }
+}
