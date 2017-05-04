@@ -2,10 +2,11 @@
   "name": "ko-binding-bem-helper",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "dist/bemHelper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./node_modules/.bin/r.js -convert node_modules/react-bem-helper/ ./vendor/react-bem-helper/ && ./node_modules/.bin/r.js -convert node_modules/object-assign/ ./vendor/object-assign/"
+    "test": "node_modules/.bin/karma start karma.conf.js",
+    "postinstall": "./node_modules/.bin/r.js -convert node_modules/react-bem-helper/ ./vendor/react-bem-helper/ && ./node_modules/.bin/r.js -convert node_modules/object-assign/ ./vendor/object-assign/",
+    "prepublish": "./node_modules/.bin/r.js -o name=bemHelper out=dist/bemHelper.js mainConfigFile=src/require_config.js"
   },
   "repository": {
     "type": "git",
@@ -37,12 +38,11 @@
     "karma-jasmine-jquery": "^0.1.1",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-requirejs": "^1.1.0",
+    "knockout": "^3.4.2",
     "phantomjs": "^2.1.7",
     "react-bem-helper": "^1.4.1",
     "requirejs": "^2.3.3"
   },
   "dependencies": {
-    "knockout": "^3.4.2",
-    "react-bem-helper": "^1.4.1"
   }
 }
