@@ -1,0 +1,57 @@
+{
+  "rules": {
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-console": [
+      "error"
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "func-names": [
+      0,
+      "always"
+    ],
+    "no-underscore-dangle": [
+      2,
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "new-cap": [
+      2,
+      {
+        "capIsNew": false
+      }
+    ],
+    "no-restricted-globals": [
+      2,
+      "fdescribe",
+      "fit"
+    ]
+  },
+  "env": {
+    "browser": true,
+    "jasmine": true,
+    "jquery": true,
+    "amd": true
+  },
+  "extends": "airbnb-base/legacy",
+  "globals": {
+    "require": true
+  }
+}
