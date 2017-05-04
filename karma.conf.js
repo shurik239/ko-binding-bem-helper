@@ -19,6 +19,7 @@ module.exports = function (config) {
     browsers: [
       'PhantomJS'
     ],
+    port: 9877,
     reporters: [
       'dots'
     ],
