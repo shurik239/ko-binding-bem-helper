@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/karma start karma.conf.js",
     "postinstall": "./node_modules/.bin/r.js -convert node_modules/react-bem-helper/ ./vendor/react-bem-helper/ && ./node_modules/.bin/r.js -convert node_modules/object-assign/ ./vendor/object-assign/",
-    "prepublish": "./node_modules/.bin/r.js -o name=bemHelper out=dist/bemHelper.js mainConfigFile=src/require_config.js"
+    "prepublish": "./node_modules/.bin/r.js -o name=bemHelper out=dist/bemHelper.js mainConfigFile=src/require_config.js exlude=knockout"
   },
   "repository": {
     "type": "git",
