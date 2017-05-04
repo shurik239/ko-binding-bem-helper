@@ -1,6 +1,6 @@
 {
   "name": "ko-binding-bem-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/bemHelper.js",
   "scripts": {
@@ -40,9 +40,9 @@
     "karma-requirejs": "^1.1.0",
     "knockout": "^3.4.2",
     "phantomjs": "^2.1.7",
-    "react-bem-helper": "^1.4.1",
     "requirejs": "^2.3.3"
   },
   "dependencies": {
+    "react-bem-helper": "^1.4.1"
   }
 }
